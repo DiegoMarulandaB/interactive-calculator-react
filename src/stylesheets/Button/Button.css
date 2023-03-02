@@ -1,0 +1,30 @@
+.button-container {
+  height: 83px;
+  display: flex;
+  flex: 1 1; /*propiedad 1 1, mismo ancho y misma altura del  boton*/
+  justify-content: center;
+  align-items: center;
+  font-weigth: bold;
+  font-size: 38px;
+  background-color: var(--bg-color-calculator-button);
+  color: var(--color-calculator-button);
+  border-radius: 20px;
+  border: 3px solid #fff;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none; /*esto ayuda que no se seleccione el numero con el mouse */
+}
+
+.button-container:hover {
+  background-color: var(--bg-color-calculator-button-hover);
+  border: 3px solid #000;
+}
+
+.operator {
+  background-color: var(--bg-color-calculator-operator);
+}
+
+.operator:hover {
+  background-color: var(--bg-color-calculator-button-operator-hover);
+  border: 3px solid #000;
+}
