@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
 
 #root {
+  /*logo*/
+  --bg-logo:#0e0d0d;
   /*font*/
   --font-family-calculator: "Poppins", sans-serif;
   /* Apps.css */
-  --bg-color-app: #acbb78;
+  --bg-color-app: #fff;
   --bg-color-calculator-app: #3c6255;
 
   /* ClearButton.css */
