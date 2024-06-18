@@ -1,10 +1,10 @@
-.button-container {
+.button-container, .clear-button {
   height: 83px;
   display: flex;
-  flex: 1 1; /*propiedad 1 1, mismo ancho y misma altura del  boton*/
+  flex: 1 1;
   justify-content: center;
   align-items: center;
-  font-weigth: bold;
+  font-weight: bold;
   font-size: 38px;
   background-color: var(--bg-color-calculator-button);
   color: var(--color-calculator-button);
@@ -12,11 +12,10 @@
   border: 3px solid #fff;
   margin: 4px;
   cursor: pointer;
-  user-select: none; /*esto ayuda que no se seleccione el numero con el mouse */
+  user-select: none;
 }
 
-.button-container:hover {
-  background-color: var(--bg-color-calculator-button-hover);
+.button-container:hover, .clear-button:hover {
   border: 3px solid #000;
 }
 
@@ -28,3 +27,11 @@
   background-color: var(--bg-color-calculator-button-operator-hover);
   border: 3px solid #000;
 }
+
+@media (max-width: 768px) {
+  .button-container, .clear-button {
+    font-size: 28px;
+    height: 60px;
+  }
+}
+
