@@ -1,27 +1,2 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
 
-#root {
-  /*logo*/
-  --bg-logo:#0e0d0d;
-  /*font*/
-  --font-family-calculator: "Poppins", sans-serif;
-  /* Apps.css */
-  --bg-color-app: #fff;
-  --bg-color-calculator-app: #3c6255;
-
-  /* ClearButton.css */
-  --color-clear-button: #100f0f;
-  --bg-color-clear-button: #a6bb8d;
-  --bg-color-clear-button-hover: #f7f1f1;
-
-  /* Button.css */
-  --bg-color-calculator-button: #eae7b1;
-  --color-calculator-button: #0e0d0d;
-  --bg-color-calculator-button-hover: #f7f1f1;
-  --bg-color-calculator-operator: #a6bb8d;
-  --bg-color-calculator-button-operator-hover: #f7f1f1;
-
-  /* Screen.css */
-  --bg-color-screen: #f7f1f1;
-  --color-screen: #0a0909;
-}

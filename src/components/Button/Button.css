@@ -1,0 +1,29 @@
+.button {
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 1.5em;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button.operator {
+  background-color: #f59e42;
+  color: white;
+}
+
+.button:active {
+  background-color: #ddd;
+}
+
+@media (max-width: 600px) {
+  .button {
+    font-size: 1.2em;
+    padding: 15px;
+  }
+
+  .display {
+    font-size: 1.5em;
+    padding: 15px;
+  }
+}
